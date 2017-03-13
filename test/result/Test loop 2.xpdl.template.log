@@ -1,0 +1,69 @@
+120514-183002  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183002      
+120514-183002  Transformation gestartet ...  
+120514-183002    
+120514-183002  initialisiere leeres AristaFlow-Workflowschema  
+120514-183002    
+120514-183002  Transformiere Pool Pool A (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183002    Start Event gefunden: Start Event (ID _mlPjImbdEeGTiaWppoNxDg)  
+120514-183002    Transformiere Flow Objects  
+120514-183002      Flow Object Start Event (ID _mlPjImbdEeGTiaWppoNxDg)  
+120514-183002      Flow Object Schleife 1 Start (ID _uOOJgXLMEeG-H7OfqozECg)  
+120514-183002        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183002      Flow Object Exkl. Verzweigung 1 (ID _m9FBsXLNEeG-H7OfqozECg)  
+120514-183002        Gateway (Verzweigung) gefunden  
+120514-183002      Flow Object Exkl. Zusammenführung 1 (ID _sBn5oXLNEeG-H7OfqozECg)  
+120514-183002      Flow Object Schleife 2 Start (ID _T_DSgGg6EeGTiaWppoNxDg)  
+120514-183002        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183002      Flow Object Schleife 3 Start (ID _TOaesXLNEeG-H7OfqozECg)  
+120514-183002        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183002      Flow Object Exkl. Verzweigung 2 (ID _OKqvMGcgEeGTiaWppoNxDg)  
+120514-183002        Gateway (Verzweigung) gefunden  
+120514-183002      Flow Object Schleife 2 Start (ID _toH9kXLyEeGiUMvlilWuIA)  
+120514-183002        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183002      Flow Object Adrei (ID _jpZ-YXK1EeG7MNg5VwkjZw)  
+120514-183002      Flow Object Schleife 2 Ende (ID _vvR3UHLyEeGiUMvlilWuIA)  
+120514-183002      Flow Object Schleife 2 Ende (ID _vvR3UHLyEeGiUMvlilWuIA)  
+120514-183002        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183002      Flow Object Exkl. Zusammenführung 2 (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183002      Flow Object Azwei (ID _QRLvwGcgEeGTiaWppoNxDg)  
+120514-183002      Flow Object Exkl. Zusammenführung 2 (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183002      Flow Object Exkl. Zusammenführung 2 (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183002      Flow Object A5 (ID _IOlRQGbeEeGTiaWppoNxDg)  
+120514-183002      Flow Object Exkl. Zusammenführung 2 (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183002      Flow Object Exkl. Zusammenführung 2 (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183002        Gateway (Zusammenführung) gefunden  
+120514-183002      Flow Object Schleife 3 Ende (ID _Uzj3kXLNEeG-H7OfqozECg)  
+120514-183002      Flow Object Schleife 3 Ende (ID _Uzj3kXLNEeG-H7OfqozECg)  
+120514-183002        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183002      Flow Object Schleife 2 Ende (ID _Sd3MkGg6EeGTiaWppoNxDg)  
+120514-183002      Flow Object Schleife 2 Ende (ID _Sd3MkGg6EeGTiaWppoNxDg)  
+120514-183002        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183002      Flow Object Exkl. Zusammenführung 1 (ID _sBn5oXLNEeG-H7OfqozECg)  
+120514-183002      Flow Object Exkl. Zusammenführung 1 (ID _sBn5oXLNEeG-H7OfqozECg)  
+120514-183002        Gateway (Zusammenführung) gefunden  
+120514-183002      Flow Object Schleife 1 Ende (ID _0OnlsHLMEeG-H7OfqozECg)  
+120514-183002      Flow Object Schleife 1 Ende (ID _0OnlsHLMEeG-H7OfqozECg)  
+120514-183002        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183002  Pool transformiert: Pool A (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183002    
+120514-183002  Transformiere Message Flows ...   
+120514-183002  Message Flows transformiert  
+120514-183002    
+120514-183002  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183002    
+120514-183002  Modell erfolgreich transformiert  
+120514-183002    
+120514-183002  Erstelle XML-Datei für AristaFlow ...  
+120514-183002    Generiere XML ...  
+120514-183002      Generiere Header  
+120514-183002      Generiere Nodes  
+120514-183002      Generiere Data Elements  
+120514-183002      Generiere Edges  
+120514-183002      Generiere Data Edges  
+120514-183002      Generiere strukturelle Daten für Nodes   
+120514-183002    Formatiere XML  
+120514-183002    Schreibe XML-Datei "test\result\Test loop 2.xpdl.template"  
+120514-183002  Transformation erfolgreich beendet  
+120514-183002    
+120514-183002  Schreibe Log-Datei "test\result\Test loop 2.xpdl.template.log"  

@@ -1,0 +1,128 @@
+120514-183003  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183003      
+120514-183003  Transformation gestartet ...  
+120514-183003    
+120514-183003  initialisiere leeres AristaFlow-Workflowschema  
+120514-183003    
+120514-183003  Transformiere Pool Pool (ID _W53XMHKVEeGj1dK2cC0YsQ)  
+120514-183003    Start Event gefunden: StartEvent (ID _W53XMnKVEeGj1dK2cC0YsQ)  
+120514-183003    Transformiere Flow Objects  
+120514-183003      Flow Object StartEvent (ID _W53XMnKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 1 (ID _YcvfMHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183003      Flow Object 2 (ID _au354HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 4 (ID _oLxj4HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object Task (ID _AlybsHKWEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object ThrowMessageEvent (ID _DoYYEHKYEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object ThrowSignalEvent (ID _6OAS4HKYEeGpNdCUMAT1FQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003      Flow Object 6 (ID _cVM-gHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 6 (ID _cVM-gHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183003      Flow Object 7 (ID _dC5K8HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object Task5 (ID _1x2GEHKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003  Pool transformiert: Pool (ID _W53XMHKVEeGj1dK2cC0YsQ)  
+120514-183003    
+120514-183003  Transformiere Pool Pool (ID _6xKxsHKVEeGj1dK2cC0YsQ)  
+120514-183003    Start Event gefunden: CatchMessageEvent (ID __LadgHKXEeGj1dK2cC0YsQ)  
+120514-183003    Transformiere Flow Objects  
+120514-183003      Flow Object CatchMessageEvent (ID __LadgHKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object Task4 (ID _K0U20HKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 21 (ID _MR3oUHKWEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object 24 (ID _LfX0YHKWEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object 23 (ID _Ko44UHKWEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 25 (ID _LBdJUHKWEeGj1dK2cC0YsQ)  
+120514-183003    
+120514-183003  Transformation fehlgeschlagen, versuche überlappende Gateways aufzulösen  
+120514-183003    Suche nach überlappenden Gateways ...  
+120514-183003      überlappenden Gateways aufgelöst für "21 (ID _MR3oUHKWEeGj1dK2cC0YsQ)"  
+120514-183003      
+120514-183003  Transformation gestartet ...  
+120514-183003    
+120514-183003  initialisiere leeres AristaFlow-Workflowschema  
+120514-183003    
+120514-183003  Transformiere Pool Pool (ID _W53XMHKVEeGj1dK2cC0YsQ)  
+120514-183003    Start Event gefunden: StartEvent (ID _W53XMnKVEeGj1dK2cC0YsQ)  
+120514-183003    Transformiere Flow Objects  
+120514-183003      Flow Object StartEvent (ID _W53XMnKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 1 (ID _YcvfMHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183003      Flow Object 2 (ID _au354HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 4 (ID _oLxj4HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object Task (ID _AlybsHKWEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object ThrowMessageEvent (ID _DoYYEHKYEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object ThrowSignalEvent (ID _6OAS4HKYEeGpNdCUMAT1FQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 5 (ID _qFUfcHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 3 (ID _bn3-cHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003      Flow Object 6 (ID _cVM-gHKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 6 (ID _cVM-gHKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183003      Flow Object 7 (ID _dC5K8HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object Task5 (ID _1x2GEHKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object 8 (ID _ZkHW8HKVEeGj1dK2cC0YsQ)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003  Pool transformiert: Pool (ID _W53XMHKVEeGj1dK2cC0YsQ)  
+120514-183003    
+120514-183003  Transformiere Pool Pool (ID _6xKxsHKVEeGj1dK2cC0YsQ)  
+120514-183003    Start Event gefunden: CatchMessageEvent (ID __LadgHKXEeGj1dK2cC0YsQ)  
+120514-183003    Transformiere Flow Objects  
+120514-183003      Flow Object CatchMessageEvent (ID __LadgHKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object Task4 (ID _K0U20HKXEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object  (ID _MR3oUHKWEeGj1dK2cC0YsQ__tBDbUHKWEeGj1dK2cC0YsQ0)  
+120514-183003        Gateway (Verzweigung) gefunden  
+120514-183003      Flow Object Task2 (ID _G-rQYHKWEeGj1dK2cC0YsQ)  
+120514-183003      Flow Object  (ID _MR3oUHKWEeGj1dK2cC0YsQ__tBDbUHKWEeGj1dK2cC0YsQ1)  
+120514-183003      Flow Object  (ID _MR3oUHKWEeGj1dK2cC0YsQ__tBDbUHKWEeGj1dK2cC0YsQ1)  
+120514-183003        Gateway (Zusammenführung) gefunden  
+120514-183003      Flow Object Task3 (ID _Jr_80HKXEeGj1dK2cC0YsQ)  
+120514-183003  Pool transformiert: Pool (ID _6xKxsHKVEeGj1dK2cC0YsQ)  
+120514-183003    
+120514-183003  Transformiere Message Flows ...   
+120514-183003    Message Flow MessageFlow _A7de0HKYEeGj1dK2cC0YsQ: [FlowObject ThrowMessageEvent (ID _DoYYEHKYEeGj1dK2cC0YsQ)] -> [FlowObject CatchMessageEvent (ID __LadgHKXEeGj1dK2cC0YsQ)]  
+120514-183003      transformiert  
+120514-183003  Message Flows transformiert  
+120514-183003    
+120514-183003  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183003    
+120514-183003  Modell erfolgreich transformiert  
+120514-183003    
+120514-183003  Erstelle XML-Datei für AristaFlow ...  
+120514-183003    Generiere XML ...  
+120514-183003      Generiere Header  
+120514-183003      Generiere Nodes  
+120514-183003      Generiere Data Elements  
+120514-183003      Generiere Edges  
+120514-183003      Generiere Data Edges  
+120514-183003      Generiere strukturelle Daten für Nodes   
+120514-183003    Formatiere XML  
+120514-183003    Schreibe XML-Datei "test\result\Test gateway overlap.xpdl.template"  
+120514-183003  Transformation erfolgreich beendet  
+120514-183003    
+120514-183003  Schreibe Log-Datei "test\result\Test gateway overlap.xpdl.template.log"  

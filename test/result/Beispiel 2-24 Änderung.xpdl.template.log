@@ -1,0 +1,62 @@
+120514-182959  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-182959    Entferne Black Box Pool Kunde (ID _KqXLgGhwEeGTiaWppoNxDg)  
+120514-182959      
+120514-182959  Transformation gestartet ...  
+120514-182959    
+120514-183000  initialisiere leeres AristaFlow-Workflowschema  
+120514-183000    
+120514-183000  Transformiere Pool Vertrieb (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183000    Start Event gefunden: Bestellung (ID _XVPisGhwEeGTiaWppoNxDg)  
+120514-183000    Transformiere Flow Objects  
+120514-183000      Flow Object Bestellung (ID _XVPisGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object Empfange Bestellung (ID _kjQcIGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object  (ID _UpAP0Gh5EeGTiaWppoNxDg)  
+120514-183000        Gateway (Verzweigung) gefunden  
+120514-183000      Flow Object Sende Auftrag (ID _nBL3IGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object Empfange Meldung (ID _szqzIGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object  (ID _Vf-UEGh5EeGTiaWppoNxDg)  
+120514-183000      Flow Object Sende Rechnung (ID _Xpj2wGh5EeGTiaWppoNxDg)  
+120514-183000      Flow Object  (ID _Vf-UEGh5EeGTiaWppoNxDg)  
+120514-183000      Flow Object  (ID _Vf-UEGh5EeGTiaWppoNxDg)  
+120514-183000        Gateway (Zusammenführung) gefunden  
+120514-183000  Pool transformiert: Vertrieb (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183000    
+120514-183000  Transformiere Pool Lager (ID _M12LoGhwEeGTiaWppoNxDg)  
+120514-183000    Start Event gefunden: Auftrag (ID _YUotsGhxEeGTiaWppoNxDg)  
+120514-183000    Transformiere Flow Objects  
+120514-183000      Flow Object Auftrag (ID _YUotsGhxEeGTiaWppoNxDg)  
+120514-183000      Flow Object Empfange Auftrag (ID _oFGLMGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object Sende Ware (ID _qDwQQGhwEeGTiaWppoNxDg)  
+120514-183000      Flow Object Sende Meldung (ID _ryuTgGhwEeGTiaWppoNxDg)  
+120514-183000  Pool transformiert: Lager (ID _M12LoGhwEeGTiaWppoNxDg)  
+120514-183000    
+120514-183000  Transformiere Message Flows ...   
+120514-183000    Message Flow MessageFlow _acluIGhwEeGTiaWppoNxDg: [Pool Kunde (ID _KqXLgGhwEeGTiaWppoNxDg)] -> [FlowObject Bestellung (ID _XVPisGhwEeGTiaWppoNxDg)]  
+120514-183000      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183000    Message Flow MessageFlow _TB4aoGhxEeGTiaWppoNxDg: [FlowObject Sende Ware (ID _qDwQQGhwEeGTiaWppoNxDg)] -> [Pool Kunde (ID _KqXLgGhwEeGTiaWppoNxDg)]  
+120514-183000      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183000    Message Flow MessageFlow _dHy6sGhxEeGTiaWppoNxDg: [FlowObject Sende Auftrag (ID _nBL3IGhwEeGTiaWppoNxDg)] -> [FlowObject Auftrag (ID _YUotsGhxEeGTiaWppoNxDg)]  
+120514-183000      transformiert  
+120514-183000    Message Flow MessageFlow _kNcHsGhxEeGTiaWppoNxDg: [FlowObject Sende Meldung (ID _ryuTgGhwEeGTiaWppoNxDg)] -> [FlowObject Empfange Meldung (ID _szqzIGhwEeGTiaWppoNxDg)]  
+120514-183000      transformiert  
+120514-183000    Message Flow MessageFlow _edPKAGh5EeGTiaWppoNxDg: [FlowObject Sende Rechnung (ID _Xpj2wGh5EeGTiaWppoNxDg)] -> [Pool Kunde (ID _KqXLgGhwEeGTiaWppoNxDg)]  
+120514-183000      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183000  Message Flows transformiert  
+120514-183000    
+120514-183000  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183000    
+120514-183000  Modell erfolgreich transformiert  
+120514-183000    
+120514-183000  Erstelle XML-Datei für AristaFlow ...  
+120514-183000    Generiere XML ...  
+120514-183000      Generiere Header  
+120514-183000      Generiere Nodes  
+120514-183000      Generiere Data Elements  
+120514-183000      Generiere Edges  
+120514-183000      Generiere Data Edges  
+120514-183000      Generiere strukturelle Daten für Nodes   
+120514-183000    Formatiere XML  
+120514-183000    Schreibe XML-Datei "test\result\Beispiel 2-24 Änderung.xpdl.template"  
+120514-183000  Transformation erfolgreich beendet  
+120514-183000    
+120514-183000  Schreibe Log-Datei "test\result\Beispiel 2-24 Änderung.xpdl.template.log"  

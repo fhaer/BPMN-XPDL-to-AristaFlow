@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template xmlns="http://www.aristaflow.de/adept2/processmodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="55b62bab-565d-4f62-8372-92c8bfff8194" version="16" xsi:schemaLocation="http://www.aristaflow.de/adept2/processmodel template.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+   <name>ProcessPackage1</name>
+   <description/>
+   <processType/>
+   <supervisorAgent>
+      <agentID>-1</agentID>
+      <agentName>supervisor</agentName>
+      <orgPositionID>-1</orgPositionID>
+      <orgPositionName>supervisor</orgPositionName>
+   </supervisorAgent>
+   <version/>
+   <nodes>
+      <node id="n0">
+         <name>Start</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n1">
+         <name>[Pool A|Lane 1] Start Event</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="dff64571-cb0f-45a9-80dc-3bb64be16ed7">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n3">
+         <name>Schleife Start außen</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n5">
+         <name>Schleife Start</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n6">
+         <name>Exkl. Verzweigung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="1412bacf-f601-4fa6-9a17-c1eeaf3f64c5">
+               <ecName>de.aristaflow.rules.XOR</ecName>
+               <operationName>XOR Predicate</operationName>
+               <name>XOR Predicate</name>
+               <description origin="OPERATION">Create a decision basded on an XOR predicate.</description>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.xorsupport.core.runtime.DecisionExecutionEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">NullContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>false</isSuspensible>
+                  <isResettable>false</isResettable>
+                  <isClosable>false</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">false</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <configuration>
+                  <configurationEntry fixed="false" name="DECISION_BYTECODE">H4sIAAAAAAAAAK1UW08TQRT+pltYKEWgKPGCIF6gBXSlFwsWMFJQSQpFa0jQBzJtp2XNsttsp4hv/g7/AC88qA94STQ8+eCPMp7pJRSoDxCTzcyZc/nOd86c2d9/vv8EMIVHOjwM6bwwuGuWJS9YzluD50VJhg2xK4VdNh27bOw6brlSKjmuNHKOK2jJi6KwjTVX5M0cl2Jph1sVLsk5IytZHV6GF+cFXXgnhZJPgjsuQ/usaZtyniEQTL3hO9yoSNMyVngpEVpn6MyYRZvLiisYpk84zNaOFreLRka6pl1MNGnS2TciJxPzVRhvkrL7oKHLjza0M/SkTFusVrazwn3JsxahB1JOjlvrVJ8615VeuWWWGZ6n/nM7E1TZTj1VWbE5XjnDwHE270oNRrFz9YDKEzUCYlHkTMV5eZGyBF+f9g4tEzlrq7xO/opcfwsfhosNvJQoyGfczmfMPNG7FAy1dPdlnIqbE09MVcPgP7pyTwUyxFuYI4VYJBIRsc2ZaDy/GY1lI5vZ/Ex4Mx7PRaemooUCF2Edgwy9J5PrGGLwlMIduMHQVRSy0VSG0eDp7oVOs/fjJm75cB23GfqOrAuOYwlu6xhV+JEOBBmenmFOtmlELGNbSG4knR3hKk6LXHJ12TrGGfSFdDq19HiVYM8yf024dYoNVKpkEnc7MYF7DN3UiqSzXeJu7R1eDoaaRuvIQkH3MeWjoDBRUhci0gU1Oq+aW1XPRM5RxHwYwwMakVZwOqYJJlc90xWMBU/3u9VI+vEQiS7MYFZ7T785jNB1aEqglaknDQ90OnnQgU7a10jy0N4+PvEFvk9VPz+tvqp2iCKG0U3SQM0LF9BTRWtHL/oIMUCyn/aapp8k6hCu0KrQkxSvbPG2Hxje0MYDIwe48ws9NeEQY3v0u8xseMcDoYYh1GT4WE1FDcKlOuAu0VPlWJ9hHGLiAJGVyQkt7P2K+DfMafiAjj1o2r5SakfKOVI2R3hPRnj3lVI7rmzbD8yrr87iarVt1/4CO+BjoUEGAAA=</configurationEntry>
+                  <configurationEntry fixed="false" name="DECISION_XML">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xordecision&gt;&lt;expressions&gt;&lt;expression type="VAR_COMP_CONST"&gt;&lt;leftHandSide&gt;p2&lt;/leftHandSide&gt;&lt;variableOrder/&gt;&lt;predicates&gt;&lt;predicate exclusive="false" id="0" type="IS_TRUE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;predicate exclusive="false" id="1" type="IS_FALSE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;/predicates&gt;&lt;/expression&gt;&lt;expression type="VAR_COMP_CONST"&gt;&lt;leftHandSide&gt;p3&lt;/leftHandSide&gt;&lt;variableOrder/&gt;&lt;predicates&gt;&lt;predicate exclusive="false" id="2" type="IS_TRUE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;predicate exclusive="false" id="3" type="IS_FALSE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;/predicates&gt;&lt;/expression&gt;&lt;/expressions&gt;&lt;exclusionIDAssignment/&gt;&lt;IDAssignment&gt;&lt;node predicate="0"&gt;&lt;node decisionID="0" predicate="2"/&gt;&lt;node decisionID="0" predicate="3"/&gt;&lt;/node&gt;&lt;node predicate="1"&gt;&lt;node decisionID="1" predicate="2"/&gt;&lt;node decisionID="2" predicate="3"/&gt;&lt;/node&gt;&lt;/IDAssignment&gt;&lt;/xordecision&gt;</configurationEntry>
+               </configuration>
+               <parameterChangePolicy>ADD_PARAMETERS</parameterChangePolicy>
+               <decisionParameter>Decision</decisionParameter>
+               <decisionStatements>
+                  <decisionStatement edgeCode="0">
+                     <decisionLabel>x</decisionLabel>
+                     <decisionStatement>[{p2 = TRUE} &amp;&amp; {p3 = TRUE}] || [{p2 = TRUE} &amp;&amp; {p3 = FALSE}] </decisionStatement>
+                     <decisionID>0</decisionID>
+                  </decisionStatement>
+                  <decisionStatement edgeCode="1">
+                     <decisionLabel>z</decisionLabel>
+                     <decisionStatement>[{p2 = FALSE} &amp;&amp; {p3 = TRUE}] </decisionStatement>
+                     <decisionID>1</decisionID>
+                  </decisionStatement>
+                  <decisionStatement edgeCode="2">
+                     <decisionLabel>!(x) &amp;&amp; !(z)</decisionLabel>
+                     <decisionStatement>[{p2 = FALSE} &amp;&amp; {p3 = FALSE}] </decisionStatement>
+                     <decisionID>2</decisionID>
+                  </decisionStatement>
+               </decisionStatements>
+               <inputParameters>
+                  <inputParameter>
+                     <name>p2</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default.Input">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </inputParameter>
+                  <inputParameter>
+                     <name>p3</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default.Input">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </inputParameter>
+               </inputParameters>
+               <outputParameters>
+                  <outputParameter>
+                     <name>Decision</name>
+                     <description/>
+                     <type>INTEGER</type>
+                     <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Decision">fromParameter</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+               <userAttributes>
+                  <userAttribute name="decision">true</userAttribute>
+               </userAttributes>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="READ" connector="0" parameterName="p2"/>
+            <connectorParameterMapping accessType="READ" connector="2" parameterName="p3"/>
+            <connectorParameterMapping accessType="WRITE" connector="4" parameterName="Decision"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n7">
+         <name>Exkl. Verzweigung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="aa1d6f4e-55b5-4723-9ad4-af0cef70d9e1">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+               <outputParameters>
+                  <outputParameter>
+                     <name>x</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+                  <outputParameter>
+                     <name>z</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="WRITE" connector="1" parameterName="x"/>
+            <connectorParameterMapping accessType="WRITE" connector="3" parameterName="z"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n8">
+         <name>A2</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="a4d9fcef-dc64-40bf-86f1-fbf9a7cc6743">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n9">
+         <name>A5</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="b9085448-7915-4122-8ef6-d66756ade50e">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n10">
+         <name>A3</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="064f4ca4-57c3-49b9-bb32-7a802c9d4842">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n11">
+         <name>Exkl. Zusammenführung</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n12">
+         <name>Schleife Ende</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="8f285388-0214-46ec-a225-648b46187f15">
+               <ecName>de.aristaflow.rules.XOR</ecName>
+               <operationName>XOR Predicate</operationName>
+               <name>XOR Predicate</name>
+               <description origin="OPERATION">Create a decision basded on an XOR predicate.</description>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.xorsupport.core.runtime.DecisionExecutionEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">NullContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>false</isSuspensible>
+                  <isResettable>false</isResettable>
+                  <isClosable>false</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">false</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <configuration>
+                  <configurationEntry fixed="false" name="DECISION_BYTECODE">H4sIAAAAAAAAAK1US1MTQRD+JhtZCEEgCOUDQXxAAsiSAEkwSJU8VKoCQWNRpR6oyWYIS212U5sJws3f4R/gwkE94KNKi5MHf5RlTxKKVzxAeZnp6en++utvevf3n+8/AUTxWIePIZMXBvessuQbtvvO4HlRkjFD7EjhlC3XKRs7rleulEquJw3T9QQteVEQjrHqibxlcikWt7ld4ZKCs7KS0+FneHlZ0LldKZR9Ftz1GJpmLMeSswyhcHqLb3OjIi3bWOalVGSNoSVrFRwuK55gSJ4JmKkdbe4UjKz0LKeQOuHJ5LaEKVOzVRj/PFUPQENrEFfQxNCethyxUinmhPeK52xCD6Vdk9tr1J86151+uWmVGV6k/7OcKepsu16qrNic7pyh5zSb3dIRo6lLaUDtiRoBsSBMS3FeWqAq4bfnoyNLRM7eLK9RvCLX1SCG4doRXlpsyOfcyWetPNHrDkcahgeybsUzxVNL9dD7D1XGVCJDosF1ND4dGxdTG+vCFOb6pJlIrCejExPrufF4PGfG8+PReFJHL0PH2eI6+hh8pVgz7jC0FoQ8EpVhMHxevch59kHcxb0AbuM+Q+fx7Zzr2oI7OgYZnl1gPoo0GrZRFJIb8+628BSXBS65emQdYQZ9LpNJLz5ZIdiLzN0J3Dq1I1TqYBgjLYhglKGNJJh3iyXu1b6/6+HIiZE6vqGkMRgBShonSuohRGZDjcybkxLVK1FwDBMBDGGSRqMRnI44wZjVM0k/FD6vc6NRDCKJ6VYk8Eh7T783DNAzaMqglalPGT7odPKhGS20r5Llo71peOQLAp+qcUFaA1VvH2X0o42snloUrqK9itaEDnQSYojsIO01TxdZpBBu0KrQhylf3fX5f6D/tTYcGjjAg19orxmHGNqj32T2YxWRdEB3PW+eWCjWic94eIjIAaLLoyNazP8VU9+Q0vABzXvQtH3l1E47/fuhmf064M1qo7f+AgSf1brrBQAA</configurationEntry>
+                  <configurationEntry fixed="false" name="DECISION_XML">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xordecision&gt;&lt;expressions&gt;&lt;expression type="VAR_COMP_CONST"&gt;&lt;leftHandSide&gt;p2&lt;/leftHandSide&gt;&lt;variableOrder/&gt;&lt;predicates&gt;&lt;predicate exclusive="false" id="0" type="IS_TRUE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;predicate exclusive="false" id="1" type="IS_FALSE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;/predicates&gt;&lt;/expression&gt;&lt;/expressions&gt;&lt;exclusionIDAssignment/&gt;&lt;IDAssignment&gt;&lt;node decisionID="0" predicate="0"/&gt;&lt;node decisionID="1" predicate="1"/&gt;&lt;/IDAssignment&gt;&lt;/xordecision&gt;</configurationEntry>
+               </configuration>
+               <parameterChangePolicy>ADD_PARAMETERS</parameterChangePolicy>
+               <decisionParameter>Decision</decisionParameter>
+               <decisionStatements>
+                  <decisionStatement edgeCode="0">
+                     <decisionLabel>LOOP</decisionLabel>
+                     <decisionStatement>[{p2 = TRUE}] </decisionStatement>
+                     <decisionID>0</decisionID>
+                  </decisionStatement>
+                  <decisionStatement edgeCode="1">
+                     <decisionLabel>!(LOOP)</decisionLabel>
+                     <decisionStatement>[{p2 = FALSE}] </decisionStatement>
+                     <decisionID>1</decisionID>
+                  </decisionStatement>
+               </decisionStatements>
+               <inputParameters>
+                  <inputParameter>
+                     <name>p2</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default.Input">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </inputParameter>
+               </inputParameters>
+               <outputParameters>
+                  <outputParameter>
+                     <name>Decision</name>
+                     <description/>
+                     <type>INTEGER</type>
+                     <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Decision">fromParameter</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+               <userAttributes>
+                  <userAttribute name="decision">true</userAttribute>
+               </userAttributes>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="READ" connector="5" parameterName="p2"/>
+            <connectorParameterMapping accessType="WRITE" connector="7" parameterName="Decision"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n13">
+         <name>Schleife Ende</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="7ee3ada8-bed0-4bdc-814f-711569d637e1">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+               <outputParameters>
+                  <outputParameter>
+                     <name>LOOP</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="WRITE" connector="6" parameterName="LOOP"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n14">
+         <name>Schleife Ende außen</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="831527b1-a382-4628-a734-30ed41de959a">
+               <ecName>de.aristaflow.rules.XOR</ecName>
+               <operationName>XOR Predicate</operationName>
+               <name>XOR Predicate</name>
+               <description origin="OPERATION">Create a decision basded on an XOR predicate.</description>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.xorsupport.core.runtime.DecisionExecutionEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">NullContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>false</isSuspensible>
+                  <isResettable>false</isResettable>
+                  <isClosable>false</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">false</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <configuration>
+                  <configurationEntry fixed="false" name="DECISION_BYTECODE">H4sIAAAAAAAAAK1US1MTQRD+JhtZCEEgCOUDQXxAAsiSAEkwSJU8VKoCQWNRpR6oyWYIS212U5sJws3f4R/gwkE94KNKi5MHf5RlTxKKVzxAeZnp6en++utvevf3n+8/AUTxWIePIZMXBvessuQbtvvO4HlRkjFD7EjhlC3XKRs7rleulEquJw3T9QQteVEQjrHqibxlcikWt7ld4ZKCs7KS0+FneHlZ0LldKZR9Ftz1GJpmLMeSswyhcHqLb3OjIi3bWOalVGSNoSVrFRwuK55gSJ4JmKkdbe4UjKz0LKeQOuHJ5LaEKVOzVRj/PFUPQENrEFfQxNCethyxUinmhPeK52xCD6Vdk9tr1J86151+uWmVGV6k/7OcKepsu16qrNic7pyh5zSb3dIRo6lLaUDtiRoBsSBMS3FeWqAq4bfnoyNLRM7eLK9RvCLX1SCG4doRXlpsyOfcyWetPNHrDkcahgeybsUzxVNL9dD7D1XGVCJDosF1ND4dGxdTG+vCFOb6pJlIrCejExPrufF4PGfG8+PReFJHL0PH2eI6+hh8pVgz7jC0FoQ8EpVhMHxevch59kHcxb0AbuM+Q+fx7Zzr2oI7OgYZnl1gPoo0GrZRFJIb8+628BSXBS65emQdYQZ9LpNJLz5ZIdiLzN0J3Dq1I1TqYBgjLYhglKGNJJh3iyXu1b6/6+HIiZE6vqGkMRgBShonSuohRGZDjcybkxLVK1FwDBMBDGGSRqMRnI44wZjVM0k/FD6vc6NRDCKJ6VYk8Eh7T783DNAzaMqglalPGT7odPKhGS20r5Llo71peOQLAp+qcUFaA1VvH2X0o42snloUrqK9itaEDnQSYojsIO01TxdZpBBu0KrQhylf3fX5f6D/tTYcGjjAg19orxmHGNqj32T2YxWRdEB3PW+eWCjWic94eIjIAaLLoyNazP8VU9+Q0vABzXvQtH3l1E47/fuhmf064M1qo7f+AgSf1brrBQAA</configurationEntry>
+                  <configurationEntry fixed="false" name="DECISION_XML">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;xordecision&gt;&lt;expressions&gt;&lt;expression type="VAR_COMP_CONST"&gt;&lt;leftHandSide&gt;p2&lt;/leftHandSide&gt;&lt;variableOrder/&gt;&lt;predicates&gt;&lt;predicate exclusive="false" id="0" type="IS_TRUE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;predicate exclusive="false" id="1" type="IS_FALSE"&gt;&lt;lowerBound included="true" kind="null"/&gt;&lt;upperBound included="true" kind="null"/&gt;&lt;/predicate&gt;&lt;/predicates&gt;&lt;/expression&gt;&lt;/expressions&gt;&lt;exclusionIDAssignment/&gt;&lt;IDAssignment&gt;&lt;node decisionID="0" predicate="0"/&gt;&lt;node decisionID="1" predicate="1"/&gt;&lt;/IDAssignment&gt;&lt;/xordecision&gt;</configurationEntry>
+               </configuration>
+               <parameterChangePolicy>ADD_PARAMETERS</parameterChangePolicy>
+               <decisionParameter>Decision</decisionParameter>
+               <decisionStatements>
+                  <decisionStatement edgeCode="0">
+                     <decisionLabel>!(NO_LOOP)</decisionLabel>
+                     <decisionStatement>[{p2 = TRUE}] </decisionStatement>
+                     <decisionID>0</decisionID>
+                  </decisionStatement>
+                  <decisionStatement edgeCode="1">
+                     <decisionLabel>NO_LOOP</decisionLabel>
+                     <decisionStatement>[{p2 = FALSE}] </decisionStatement>
+                     <decisionID>1</decisionID>
+                  </decisionStatement>
+               </decisionStatements>
+               <inputParameters>
+                  <inputParameter>
+                     <name>p2</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default.Input">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </inputParameter>
+               </inputParameters>
+               <outputParameters>
+                  <outputParameter>
+                     <name>Decision</name>
+                     <description/>
+                     <type>INTEGER</type>
+                     <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Decision">fromParameter</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+               <userAttributes>
+                  <userAttribute name="decision">true</userAttribute>
+               </userAttributes>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="READ" connector="8" parameterName="p2"/>
+            <connectorParameterMapping accessType="WRITE" connector="10" parameterName="Decision"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n15">
+         <name>Schleife Ende außen</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="14357a46-8429-4750-85d1-4fa12770c389">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+               <outputParameters>
+                  <outputParameter>
+                     <name>!(NO_LOOP)</name>
+                     <description/>
+                     <type>BOOLEAN</type>
+                     <identifierID>ffffffff-ffff-ffff-8000-000000000000</identifierID>
+                     <isOptional>false</isOptional>
+                     <userAttributes>
+                        <userAttribute name="Default">fromParameterTemplate</userAttribute>
+                     </userAttributes>
+                  </outputParameter>
+               </outputParameters>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+         <connectorParameterMappings>
+            <connectorParameterMapping accessType="WRITE" connector="9" parameterName="!(NO_LOOP)"/>
+         </connectorParameterMappings>
+      </node>
+      <node id="n16">
+         <name>End</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+   </nodes>
+   <dataElements>
+      <dataElement id="d0">
+         <type>BOOLEAN</type>
+         <name>x</name>
+         <description/>
+         <identifierID>ffffffff-ffff-fffe-8000-000000000000</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d1">
+         <type>BOOLEAN</type>
+         <name>z</name>
+         <description/>
+         <identifierID>ffffffff-ffff-fffe-8000-000000000000</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d2">
+         <type>INTEGER</type>
+         <name>Decisiond2</name>
+         <description/>
+         <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d3">
+         <type>BOOLEAN</type>
+         <name>LOOP</name>
+         <description/>
+         <identifierID>ffffffff-ffff-fffe-8000-000000000000</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d4">
+         <type>INTEGER</type>
+         <name>Decisiond4</name>
+         <description/>
+         <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d5">
+         <type>BOOLEAN</type>
+         <name>!(NO_LOOP)</name>
+         <description/>
+         <identifierID>ffffffff-ffff-fffe-8000-000000000000</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+      <dataElement id="d6">
+         <type>INTEGER</type>
+         <name>Decisiond6</name>
+         <description/>
+         <identifierID>f31b8592-f943-4911-847a-bdc65a8bdacd</identifierID>
+         <isPublic>true</isPublic>
+      </dataElement>
+   </dataElements>
+   <edges>
+      <edge destinationNodeID="n1" edgeType="ET_CONTROL" sourceNodeID="n0">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n3" edgeType="ET_CONTROL" sourceNodeID="n1">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n5" edgeType="ET_CONTROL" sourceNodeID="n3">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n7" edgeType="ET_CONTROL" sourceNodeID="n5">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n6" edgeType="ET_CONTROL" sourceNodeID="n7">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n8" edgeType="ET_CONTROL" sourceNodeID="n6">
+         <edgeType>ET_CONTROL</edgeType>
+         <edgeCode>0</edgeCode>
+      </edge>
+      <edge destinationNodeID="n9" edgeType="ET_CONTROL" sourceNodeID="n6">
+         <edgeType>ET_CONTROL</edgeType>
+         <edgeCode>1</edgeCode>
+      </edge>
+      <edge destinationNodeID="n10" edgeType="ET_CONTROL" sourceNodeID="n6">
+         <edgeType>ET_CONTROL</edgeType>
+         <edgeCode>2</edgeCode>
+      </edge>
+      <edge destinationNodeID="n11" edgeType="ET_CONTROL" sourceNodeID="n8">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n11" edgeType="ET_CONTROL" sourceNodeID="n9">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n11" edgeType="ET_CONTROL" sourceNodeID="n10">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n5" edgeType="ET_LOOP" sourceNodeID="n12">
+         <edgeType>ET_LOOP</edgeType>
+         <edgeCode>0</edgeCode>
+      </edge>
+      <edge destinationNodeID="n13" edgeType="ET_CONTROL" sourceNodeID="n11">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n12" edgeType="ET_CONTROL" sourceNodeID="n13">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n3" edgeType="ET_LOOP" sourceNodeID="n14">
+         <edgeType>ET_LOOP</edgeType>
+         <edgeCode>0</edgeCode>
+      </edge>
+      <edge destinationNodeID="n15" edgeType="ET_CONTROL" sourceNodeID="n12">
+         <edgeType>ET_CONTROL</edgeType>
+         <edgeCode>1</edgeCode>
+      </edge>
+      <edge destinationNodeID="n14" edgeType="ET_CONTROL" sourceNodeID="n15">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n16" edgeType="ET_CONTROL" sourceNodeID="n14">
+         <edgeType>ET_CONTROL</edgeType>
+         <edgeCode>1</edgeCode>
+      </edge>
+   </edges>
+   <dataEdges>
+      <dataEdge connectorID="0" dataEdgeType="READ" dataElementID="d0" nodeID="n6">
+         <dataEdgeType>READ</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="1" dataEdgeType="WRITE" dataElementID="d0" nodeID="n7">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="2" dataEdgeType="READ" dataElementID="d1" nodeID="n6">
+         <dataEdgeType>READ</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="3" dataEdgeType="WRITE" dataElementID="d1" nodeID="n7">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="4" dataEdgeType="WRITE" dataElementID="d2" nodeID="n6">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="5" dataEdgeType="READ" dataElementID="d3" nodeID="n12">
+         <dataEdgeType>READ</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="6" dataEdgeType="WRITE" dataElementID="d3" nodeID="n13">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="7" dataEdgeType="WRITE" dataElementID="d4" nodeID="n12">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="8" dataEdgeType="READ" dataElementID="d5" nodeID="n14">
+         <dataEdgeType>READ</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="9" dataEdgeType="WRITE" dataElementID="d5" nodeID="n15">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+      <dataEdge connectorID="10" dataEdgeType="WRITE" dataElementID="d6" nodeID="n14">
+         <dataEdgeType>WRITE</dataEdgeType>
+         <isOptional>false</isOptional>
+      </dataEdge>
+   </dataEdges>
+   <startNode>n0</startNode>
+   <endNode>n16</endNode>
+   <structuralData>
+      <structuralNodeData nodeID="n0">
+         <type>NT_STARTFLOW</type>
+         <topologicalID>0</topologicalID>
+         <branchID>0</branchID>
+         <correspondingBlockNodeID>n16</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n1">
+         <type>NT_NORMAL</type>
+         <topologicalID>1</topologicalID>
+         <branchID>1</branchID>
+         <splitNodeID>n0</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n3">
+         <type>NT_STARTLOOP</type>
+         <topologicalID>2</topologicalID>
+         <branchID>1</branchID>
+         <splitNodeID>n0</splitNodeID>
+         <correspondingBlockNodeID>n14</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n5">
+         <type>NT_STARTLOOP</type>
+         <topologicalID>3</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n3</splitNodeID>
+         <correspondingBlockNodeID>n12</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n6">
+         <type>NT_XOR_SPLIT</type>
+         <topologicalID>5</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n5</splitNodeID>
+         <correspondingBlockNodeID>n11</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n7">
+         <type>NT_NORMAL</type>
+         <topologicalID>4</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n5</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n8">
+         <type>NT_NORMAL</type>
+         <topologicalID>6</topologicalID>
+         <branchID>4</branchID>
+         <splitNodeID>n6</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n9">
+         <type>NT_NORMAL</type>
+         <topologicalID>7</topologicalID>
+         <branchID>5</branchID>
+         <splitNodeID>n6</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n10">
+         <type>NT_NORMAL</type>
+         <topologicalID>8</topologicalID>
+         <branchID>6</branchID>
+         <splitNodeID>n6</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n11">
+         <type>NT_XOR_JOIN</type>
+         <topologicalID>9</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n5</splitNodeID>
+         <correspondingBlockNodeID>n6</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n12">
+         <type>NT_ENDLOOP</type>
+         <topologicalID>11</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n3</splitNodeID>
+         <correspondingBlockNodeID>n5</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n13">
+         <type>NT_NORMAL</type>
+         <topologicalID>10</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n5</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n14">
+         <type>NT_ENDLOOP</type>
+         <topologicalID>13</topologicalID>
+         <branchID>1</branchID>
+         <splitNodeID>n0</splitNodeID>
+         <correspondingBlockNodeID>n3</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n15">
+         <type>NT_NORMAL</type>
+         <topologicalID>12</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n3</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n16">
+         <type>NT_ENDFLOW</type>
+         <topologicalID>14</topologicalID>
+         <branchID>0</branchID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+   </structuralData>
+</template>

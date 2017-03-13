@@ -1,0 +1,68 @@
+120514-183006  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183006      
+120514-183006  Transformation gestartet ...  
+120514-183006    
+120514-183006  initialisiere leeres AristaFlow-Workflowschema  
+120514-183006    
+120514-183006  Transformiere Pool PoolB (ID _uKA1sHFdEeG8vrjgicxFKw)  
+120514-183006    Start Event gefunden:  (ID _uKA1snFdEeG8vrjgicxFKw)  
+120514-183006    Transformiere Flow Objects  
+120514-183006      Flow Object  (ID _uKA1snFdEeG8vrjgicxFKw)  
+120514-183006      Flow Object ManageCase (ID _uKA1s3FdEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _uKBcxnFdEeG8vrjgicxFKw)  
+120514-183006        Gateway (Verzweigung) gefunden  
+120514-183006      Flow Object ReferCase (ID _uKBcwXFdEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _QQ3w0HFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object CloseCase (ID _uKA1unFdEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _QQ3w0HFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _QQ3w0HFfEeG8vrjgicxFKw)  
+120514-183006        Gateway (Zusammenführung) gefunden  
+120514-183006  Pool transformiert: PoolB (ID _uKA1sHFdEeG8vrjgicxFKw)  
+120514-183006    
+120514-183006  Transformiere Pool PoolA1 (ID _jLvxUHFdEeG8vrjgicxFKw)  
+120514-183006    Start Event gefunden: CatchSignalEvent (ID _G5VkQHFgEeG8vrjgicxFKw)  
+120514-183006    Transformiere Flow Objects  
+120514-183006      Flow Object CatchSignalEvent (ID _G5VkQHFgEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _8dnzUHFfEeG8vrjgicxFKw)  
+120514-183006        Gateway (Verzweigung) gefunden  
+120514-183006      Flow Object ConditionalEvent (ID _OyQBQHFgEeG8vrjgicxFKw)  
+120514-183006      Flow Object Task (ID _6qawUHFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object CatchMessageEvent2 (ID _VyABoHFgEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _9JJckHFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object CatchMessageEvent (ID _Up3U4HFgEeG8vrjgicxFKw)  
+120514-183006      Flow Object Task2 (ID _-PJbUHFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _NP3BcHFgEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _9JJckHFfEeG8vrjgicxFKw)  
+120514-183006      Flow Object  (ID _9JJckHFfEeG8vrjgicxFKw)  
+120514-183006        Gateway (Zusammenführung) gefunden  
+120514-183006  Pool transformiert: PoolA1 (ID _jLvxUHFdEeG8vrjgicxFKw)  
+120514-183006    
+120514-183006  Transformiere Pool PoolA2 (ID _a9hEQHFgEeG8vrjgicxFKw)  
+120514-183006    Start Event gefunden: CatchSignalEvent (ID _-qVGgHKTEeGpo6jDCWOrbA)  
+120514-183006    Transformiere Flow Objects  
+120514-183006      Flow Object CatchSignalEvent (ID _-qVGgHKTEeGpo6jDCWOrbA)  
+120514-183006      Flow Object UserTask (ID _ekGJYHFgEeG8vrjgicxFKw)  
+120514-183006  Pool transformiert: PoolA2 (ID _a9hEQHFgEeG8vrjgicxFKw)  
+120514-183006    
+120514-183006  Transformiere Message Flows ...   
+120514-183006    Message Flow MessageFlow _hVVh8HFgEeG8vrjgicxFKw: [FlowObject  (ID _NP3BcHFgEeG8vrjgicxFKw)] -> [FlowObject UserTask (ID _ekGJYHFgEeG8vrjgicxFKw)]  
+120514-183006      transformiert  
+120514-183006  Message Flows transformiert  
+120514-183006    
+120514-183006  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183006    
+120514-183006  Modell erfolgreich transformiert  
+120514-183006    
+120514-183006  Erstelle XML-Datei für AristaFlow ...  
+120514-183006    Generiere XML ...  
+120514-183006      Generiere Header  
+120514-183006      Generiere Nodes  
+120514-183006      Generiere Data Elements  
+120514-183006      Generiere Edges  
+120514-183006      Generiere Data Edges  
+120514-183006      Generiere strukturelle Daten für Nodes   
+120514-183006    Formatiere XML  
+120514-183006    Schreibe XML-Datei "test\result\Test multiple pools, processes and lanes.xpdl.template"  
+120514-183006  Transformation erfolgreich beendet  
+120514-183006    
+120514-183006  Schreibe Log-Datei "test\result\Test multiple pools, processes and lanes.xpdl.template.log"  

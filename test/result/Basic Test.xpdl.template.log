@@ -1,0 +1,34 @@
+120514-182956  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-182956      
+120514-182956  Transformation gestartet ...  
+120514-182956    
+120514-182956  initialisiere leeres AristaFlow-Workflowschema  
+120514-182956    
+120514-182956  Transformiere Pool Pool (ID _RPte0HE3EeG8vrjgicxFKw)  
+120514-182956    Start Event gefunden: Start Event (ID Start)  
+120514-182956    Transformiere Flow Objects  
+120514-182956      Flow Object Start Event (ID Start)  
+120514-182956      Flow Object Task (ID A1)  
+120514-182956      Flow Object Task 2 (ID A2)  
+120514-182956  Pool transformiert: Pool (ID _RPte0HE3EeG8vrjgicxFKw)  
+120514-182956    
+120514-182956  Transformiere Message Flows ...   
+120514-182956  Message Flows transformiert  
+120514-182956    
+120514-182956  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-182956    
+120514-182956  Modell erfolgreich transformiert  
+120514-182956    
+120514-182956  Erstelle XML-Datei für AristaFlow ...  
+120514-182956    Generiere XML ...  
+120514-182956      Generiere Header  
+120514-182956      Generiere Nodes  
+120514-182956      Generiere Data Elements  
+120514-182956      Generiere Edges  
+120514-182956      Generiere Data Edges  
+120514-182956      Generiere strukturelle Daten für Nodes   
+120514-182956    Formatiere XML  
+120514-182956    Schreibe XML-Datei "test\result\Basic Test.xpdl.template"  
+120514-182956  Transformation erfolgreich beendet  
+120514-182956    
+120514-182956  Schreibe Log-Datei "test\result\Basic Test.xpdl.template.log"  

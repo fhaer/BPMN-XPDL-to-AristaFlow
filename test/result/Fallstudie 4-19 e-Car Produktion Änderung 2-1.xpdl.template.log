@@ -1,0 +1,112 @@
+120514-183009  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183009    Entferne Black Box Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)  
+120514-183009    Entferne Black Box Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)  
+120514-183009      
+120514-183009  Transformation gestartet ...  
+120514-183009    
+120514-183009  initialisiere leeres AristaFlow-Workflowschema  
+120514-183009    
+120514-183009  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120514-183009    Start Event gefunden:  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183009    Transformiere Flow Objects  
+120514-183009      Flow Object  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120514-183009        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183009      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object 1 (ID _xAdg8Ch4EeGNy-Zci5qUxA)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object 1c (ID _9sWkwCh4EeGNy-Zci5qUxA)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Teile i.O.? (ID _6ZkcwGifEeGTiaWppoNxDg)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120514-183009      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object 2b (ID _kwWkwCh5EeGNy-Zci5qUxA)  
+120514-183009    
+120514-183009  Transformation fehlgeschlagen, versuche überlappende Gateways aufzulösen  
+120514-183009    Suche nach überlappenden Gateways ...  
+120514-183009      überlappenden Gateways aufgelöst für " (ID _A5-FYCh7EeGNy-Zci5qUxA)"  
+120514-183009      
+120514-183009  Transformation gestartet ...  
+120514-183009    
+120514-183009  initialisiere leeres AristaFlow-Workflowschema  
+120514-183009    
+120514-183009  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120514-183009    Start Event gefunden:  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183009    Transformiere Flow Objects  
+120514-183009      Flow Object  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120514-183009        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183009      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120514-183009      Flow Object 1 (ID _xAdg8Ch4EeGNy-Zci5qUxA)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object 1c (ID _9sWkwCh4EeGNy-Zci5qUxA)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Teile i.O.? (ID _6ZkcwGifEeGTiaWppoNxDg)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120514-183009      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120514-183009      Flow Object 2b (ID _kwWkwCh5EeGNy-Zci5qUxA)  
+120514-183009  Verschiedene Gateways für die Zusammenführung gefunden: Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg) vs. 2b (ID _kwWkwCh5EeGNy-Zci5qUxA) 
+120514-183009   
+120514-183009  Zu einer Verzweigung wurde keine passende Zusammenführung gefunden 
+120514-183009   
+120514-183009  FlowObject: Teile i.O.? 
+120514-183009  Typ: Gateway (Verzweigung) 
+120514-183009  ID: _6ZkcwGifEeGTiaWppoNxDg 
+120514-183009  Lane: Lane (ID _Y1oKESh3EeGNy-Zci5qUxA) 
+120514-183009  Pool: Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA) 
+120514-183009   
+120514-183009   
+120514-183009  Exception:  
+120514-183009  class de.bpmnaftool.model.transformation.NotTransformableException 
+120514-183009   
+120514-183009  Stack trace: 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGatewayBranches(line 450) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGateway(line 409) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.detectGateway(line 580) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 384) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 392) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 392) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGatewayBranches(line 443) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGateway(line 409) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.detectGateway(line 580) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 384) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGatewayBranches(line 443) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseGateway(line 409) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.detectGateway(line 580) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 384) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 392) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.detectLoopStart(line 600) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseLoop(line 517) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.detectGateway(line 583) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 384) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 392) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.traverseFlowObjects(line 392) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.transformPool(line 184) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.transformModel(line 157) 
+120514-183009  de.bpmnaftool.model.transformation.BpmnTransformationImpl.transform(line 83) 
+120514-183009  de.bpmnaftool.control.BpmnAfToolImpl.transformModel(line 179) 
+120514-183009  de.bpmnaftool.control.BpmnAfToolImplTest.testFile(line 324) 
+120514-183009  de.bpmnaftool.control.BpmnAfToolImplTest.testFallstudie4_19_ECar_AEnderung2_1(line 278) 
+120514-183009  sun.reflect.NativeMethodAccessorImpl.invoke0(line -2) 
+120514-183009  sun.reflect.NativeMethodAccessorImpl.invoke(line -1) 
+120514-183009  sun.reflect.DelegatingMethodAccessorImpl.invoke(line -1) 
+120514-183009  java.lang.reflect.Method.invoke(line -1) 
+120514-183009  junit.framework.TestCase.runTest(line 164) 
+120514-183009  junit.framework.TestCase.runBare(line 130) 
+120514-183009  junit.framework.TestResult$1.protect(line 106) 
+120514-183009  junit.framework.TestResult.runProtected(line 124) 
+120514-183009  junit.framework.TestResult.run(line 109) 
+120514-183009  junit.framework.TestCase.run(line 120) 
+120514-183009  junit.framework.TestSuite.runTest(line 230) 
+120514-183009  junit.framework.TestSuite.run(line 225) 
+120514-183009  junit.swingui.TestRunner$16.run(line 698) 
+120514-183009    
+120514-183009  Schreibe Log-Datei "test\result\Fallstudie 4-19 e-Car Produktion Änderung 2-1.xpdl.template.log"  

@@ -1,0 +1,43 @@
+120514-183005  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183005    Entferne Black Box Pool Pool (ID _s4uE0HM9EeGuENwTJVFtXw)  
+120514-183005    Entferne Black Box Pool Pool (ID _uajD8HM9EeGuENwTJVFtXw)  
+120514-183005      
+120514-183005  Transformation gestartet ...  
+120514-183005    
+120514-183005  initialisiere leeres AristaFlow-Workflowschema  
+120514-183005    
+120514-183005  Transformiere Pool Pool (ID _6zfWkHM9EeGuENwTJVFtXw)  
+120514-183005    Start Event gefunden: UntriggeredEvent3 (ID _7vnnoHM9EeGuENwTJVFtXw)  
+120514-183005    Transformiere Flow Objects  
+120514-183005      Flow Object UntriggeredEvent3 (ID _7vnnoHM9EeGuENwTJVFtXw)  
+120514-183005      Flow Object 3 (ID _-nt2IHM9EeGuENwTJVFtXw)  
+120514-183005        Gateway (Verzweigung) gefunden  
+120514-183005      Flow Object Task3 (ID _88iGsHM9EeGuENwTJVFtXw)  
+120514-183005      Flow Object 4 (ID __BRloHM9EeGuENwTJVFtXw)  
+120514-183005      Flow Object 4 (ID __BRloHM9EeGuENwTJVFtXw)  
+120514-183005      Flow Object Task4 (ID _C0TyYHM-EeGuENwTJVFtXw)  
+120514-183005      Flow Object 4 (ID __BRloHM9EeGuENwTJVFtXw)  
+120514-183005      Flow Object 4 (ID __BRloHM9EeGuENwTJVFtXw)  
+120514-183005        Gateway (Zusammenführung) gefunden  
+120514-183005  Pool transformiert: Pool (ID _6zfWkHM9EeGuENwTJVFtXw)  
+120514-183005    
+120514-183005  Transformiere Message Flows ...   
+120514-183005  Message Flows transformiert  
+120514-183005    
+120514-183005  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183005    
+120514-183005  Modell erfolgreich transformiert  
+120514-183005    
+120514-183005  Erstelle XML-Datei für AristaFlow ...  
+120514-183005    Generiere XML ...  
+120514-183005      Generiere Header  
+120514-183005      Generiere Nodes  
+120514-183005      Generiere Data Elements  
+120514-183005      Generiere Edges  
+120514-183005      Generiere Data Edges  
+120514-183005      Generiere strukturelle Daten für Nodes   
+120514-183005    Formatiere XML  
+120514-183005    Schreibe XML-Datei "test\result\Test gateway inclusive.xpdl.template"  
+120514-183005  Transformation erfolgreich beendet  
+120514-183005    
+120514-183005  Schreibe Log-Datei "test\result\Test gateway inclusive.xpdl.template.log"  

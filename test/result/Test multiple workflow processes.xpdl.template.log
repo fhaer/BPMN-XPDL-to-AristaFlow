@@ -1,0 +1,43 @@
+120514-183005  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183005    Entferne Black Box Pool Main Process (ID e4506506-9186-4e05-9c06-c1bf4323166c)  
+120514-183005      
+120514-183005  Transformation gestartet ...  
+120514-183005    
+120514-183005  initialisiere leeres AristaFlow-Workflowschema  
+120514-183005    
+120514-183005  Transformiere Pool Process 1 (ID 388a7969-026e-4541-b484-ab19b4b38077)  
+120514-183005    Start Event gefunden:  (ID 3bb9171d-e0b3-4eb1-9255-32ffff4af0b7)  
+120514-183005    Transformiere Flow Objects  
+120514-183006      Flow Object  (ID 3bb9171d-e0b3-4eb1-9255-32ffff4af0b7)  
+120514-183006      Flow Object Task 1 (ID 6b604eeb-9940-4766-a449-59d6a5b0618f)  
+120514-183006  Pool transformiert: Process 1 (ID 388a7969-026e-4541-b484-ab19b4b38077)  
+120514-183006    
+120514-183006  Transformiere Pool Process 2 (ID 93869588-e427-459d-821f-cbbcbc9686a0)  
+120514-183006    Start Event gefunden:  (ID 3cd47327-257c-4e4f-96eb-e3ea62e5006d)  
+120514-183006    Transformiere Flow Objects  
+120514-183006      Flow Object  (ID 3cd47327-257c-4e4f-96eb-e3ea62e5006d)  
+120514-183006      Flow Object Task 2 (ID 7f0f13e3-37f9-4842-aaa9-914b5e1b88dd)  
+120514-183006  Pool transformiert: Process 2 (ID 93869588-e427-459d-821f-cbbcbc9686a0)  
+120514-183006    
+120514-183006  Transformiere Message Flows ...   
+120514-183006    Message Flow MessageFlow 0110ae06-19ed-4b60-9596-46e9adf1c03a: [FlowObject Task 1 (ID 6b604eeb-9940-4766-a449-59d6a5b0618f)] -> [FlowObject Task 2 (ID 7f0f13e3-37f9-4842-aaa9-914b5e1b88dd)]  
+120514-183006      transformiert  
+120514-183006  Message Flows transformiert  
+120514-183006    
+120514-183006  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183006    
+120514-183006  Modell erfolgreich transformiert  
+120514-183006    
+120514-183006  Erstelle XML-Datei für AristaFlow ...  
+120514-183006    Generiere XML ...  
+120514-183006      Generiere Header  
+120514-183006      Generiere Nodes  
+120514-183006      Generiere Data Elements  
+120514-183006      Generiere Edges  
+120514-183006      Generiere Data Edges  
+120514-183006      Generiere strukturelle Daten für Nodes   
+120514-183006    Formatiere XML  
+120514-183006    Schreibe XML-Datei "test\result\Test multiple workflow processes.xpdl.template"  
+120514-183006  Transformation erfolgreich beendet  
+120514-183006    
+120514-183006  Schreibe Log-Datei "test\result\Test multiple workflow processes.xpdl.template.log"  

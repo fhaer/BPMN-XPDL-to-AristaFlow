@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template xmlns="http://www.aristaflow.de/adept2/processmodel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="29cdde44-a098-4674-ad3d-ccfc3c87a117" version="16" xsi:schemaLocation="http://www.aristaflow.de/adept2/processmodel template.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+   <name>ProcessPackage1</name>
+   <description/>
+   <processType/>
+   <supervisorAgent>
+      <agentID>-1</agentID>
+      <agentName>supervisor</agentName>
+      <orgPositionID>-1</orgPositionID>
+      <orgPositionName>supervisor</orgPositionName>
+   </supervisorAgent>
+   <version/>
+   <nodes>
+      <node id="n0">
+         <name>Start</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n1">
+         <name> </name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n2">
+         <name>[Vertrieb|Lane] Warte auf Ereignis: Bestellung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="cffbebdb-8021-48f3-bec3-6e8765e6089f">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n3">
+         <name>[V] Empfange Bestellung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="ebac9b90-ed26-47cc-82a7-52bfa5dd4728">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n4">
+         <name>[V] </name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n5">
+         <name>[V] Sende Auftrag</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="0c46be40-8a14-43ee-8627-6080f13465cd">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n6">
+         <name>[V] Empfange Meldung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="4c31b520-7d8e-4c4d-b943-b7700c3e40b2">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n7">
+         <name>[V] Sende Rechnung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="c94657d9-338f-4a94-b2b7-dba1bb39a245">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n8">
+         <name>[V] </name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n9">
+         <name>[Lager|Lane] Warte auf Ereignis: Auftrag</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="dea897ec-9b43-40b0-976c-bb349442cf9f">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n10">
+         <name>[L] Empfange Auftrag</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="f34f6e60-0a02-4d46-bcd4-a342693d91e1">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n11">
+         <name>[L] Sende Ware</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="35f08bbc-2a07-4ea0-bc2a-919ccb7f00b7">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n12">
+         <name>[L] Sende Meldung</name>
+         <description/>
+         <staffAssignmentRule>Agent()</staffAssignmentRule>
+         <executableBusinessProcess>
+            <activity id="c648d392-8e5c-47d9-aaf8-217a8131b6c0">
+               <ecName>de.aristaflow.form.GeneratedForm</ecName>
+               <operationName>Generated Form</operationName>
+               <name>Generated Form</name>
+               <description origin="OPERATION"/>
+               <implementationClass origin="ECD">de.aristaflow.adept2.extensions.generatedforms2.FormToolkitDataBindingEnvironment</implementationClass>
+               <isSingleton origin="ECD">false</isSingleton>
+               <guiContextID origin="ECD">SWTContext</guiContextID>
+               <executionControlProperties origin="ECD">
+                  <isSuspensible>true</isSuspensible>
+                  <isResettable>true</isResettable>
+                  <isClosable>true</isClosable>
+               </executionControlProperties>
+               <supportsViewOnly origin="OPERATION">true</supportsViewOnly>
+               <supportsTestExecution origin="OPERATION">false</supportsTestExecution>
+               <parameterChangePolicy>GENERIC</parameterChangePolicy>
+            </activity>
+         </executableBusinessProcess>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n13">
+         <name> </name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+      <node id="n14">
+         <name>End</name>
+         <description/>
+         <staffAssignmentRule/>
+         <autoStart>false</autoStart>
+      </node>
+   </nodes>
+   <dataElements/>
+   <edges>
+      <edge destinationNodeID="n1" edgeType="ET_CONTROL" sourceNodeID="n0">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n2" edgeType="ET_CONTROL" sourceNodeID="n1">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n3" edgeType="ET_CONTROL" sourceNodeID="n2">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n4" edgeType="ET_CONTROL" sourceNodeID="n3">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n5" edgeType="ET_CONTROL" sourceNodeID="n4">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n6" edgeType="ET_CONTROL" sourceNodeID="n5">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n7" edgeType="ET_CONTROL" sourceNodeID="n4">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n8" edgeType="ET_CONTROL" sourceNodeID="n6">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n8" edgeType="ET_CONTROL" sourceNodeID="n7">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n9" edgeType="ET_CONTROL" sourceNodeID="n1">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n10" edgeType="ET_CONTROL" sourceNodeID="n9">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n11" edgeType="ET_CONTROL" sourceNodeID="n10">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n12" edgeType="ET_CONTROL" sourceNodeID="n11">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n9" edgeType="ET_SYNC" sourceNodeID="n5">
+         <edgeType>ET_SYNC</edgeType>
+      </edge>
+      <edge destinationNodeID="n6" edgeType="ET_SYNC" sourceNodeID="n12">
+         <edgeType>ET_SYNC</edgeType>
+      </edge>
+      <edge destinationNodeID="n14" edgeType="ET_CONTROL" sourceNodeID="n13">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n13" edgeType="ET_CONTROL" sourceNodeID="n8">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+      <edge destinationNodeID="n13" edgeType="ET_CONTROL" sourceNodeID="n12">
+         <edgeType>ET_CONTROL</edgeType>
+      </edge>
+   </edges>
+   <dataEdges/>
+   <startNode>n0</startNode>
+   <endNode>n14</endNode>
+   <structuralData>
+      <structuralNodeData nodeID="n0">
+         <type>NT_STARTFLOW</type>
+         <topologicalID>0</topologicalID>
+         <branchID>0</branchID>
+         <correspondingBlockNodeID>n14</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n1">
+         <type>NT_AND_SPLIT</type>
+         <topologicalID>1</topologicalID>
+         <branchID>1</branchID>
+         <splitNodeID>n0</splitNodeID>
+         <correspondingBlockNodeID>n13</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n2">
+         <type>NT_NORMAL</type>
+         <topologicalID>2</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n3">
+         <type>NT_NORMAL</type>
+         <topologicalID>3</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n4">
+         <type>NT_AND_SPLIT</type>
+         <topologicalID>4</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n8</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n5">
+         <type>NT_NORMAL</type>
+         <topologicalID>5</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n4</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n6">
+         <type>NT_NORMAL</type>
+         <topologicalID>6</topologicalID>
+         <branchID>3</branchID>
+         <splitNodeID>n4</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n7">
+         <type>NT_NORMAL</type>
+         <topologicalID>7</topologicalID>
+         <branchID>4</branchID>
+         <splitNodeID>n4</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n8">
+         <type>NT_AND_JOIN</type>
+         <topologicalID>8</topologicalID>
+         <branchID>2</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n4</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n9">
+         <type>NT_NORMAL</type>
+         <topologicalID>9</topologicalID>
+         <branchID>5</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n10">
+         <type>NT_NORMAL</type>
+         <topologicalID>10</topologicalID>
+         <branchID>5</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n11">
+         <type>NT_NORMAL</type>
+         <topologicalID>11</topologicalID>
+         <branchID>5</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n12">
+         <type>NT_NORMAL</type>
+         <topologicalID>12</topologicalID>
+         <branchID>5</branchID>
+         <splitNodeID>n1</splitNodeID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n13">
+         <type>NT_AND_JOIN</type>
+         <topologicalID>13</topologicalID>
+         <branchID>1</branchID>
+         <splitNodeID>n0</splitNodeID>
+         <correspondingBlockNodeID>n1</correspondingBlockNodeID>
+      </structuralNodeData>
+      <structuralNodeData nodeID="n14">
+         <type>NT_ENDFLOW</type>
+         <topologicalID>14</topologicalID>
+         <branchID>0</branchID>
+         <correspondingBlockNodeID>n0</correspondingBlockNodeID>
+      </structuralNodeData>
+   </structuralData>
+</template>

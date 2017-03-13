@@ -1,0 +1,149 @@
+120514-183008  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183008    Entferne Black Box Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)  
+120514-183008    Entferne Black Box Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)  
+120514-183008      
+120514-183008  Transformation gestartet ...  
+120514-183008    
+120514-183008  initialisiere leeres AristaFlow-Workflowschema  
+120514-183008    
+120514-183008  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120514-183008    Start Event gefunden: Bestellung (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183008    Transformiere Flow Objects  
+120514-183008      Flow Object Bestellung (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA)  
+120514-183008        Gateway (Verzweigung) gefunden  
+120514-183008      Flow Object  (ID _9sWkwCh4EeGNy-Zci5qUxA)  
+120514-183008        Gateway (Verzweigung) gefunden  
+120514-183008      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _kwWkwCh5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _-MonUCh4EeGNy-Zci5qUxA)  
+120514-183008    
+120514-183008  Transformation fehlgeschlagen, versuche überlappende Gateways aufzulösen  
+120514-183008    Suche nach überlappenden Gateways ...  
+120514-183008      überlappenden Gateways aufgelöst für " (ID _xAdg8Ch4EeGNy-Zci5qUxA)"  
+120514-183008      überlappenden Gateways aufgelöst für " (ID _A5-FYCh7EeGNy-Zci5qUxA)"  
+120514-183008      
+120514-183008  Transformation gestartet ...  
+120514-183008    
+120514-183008  initialisiere leeres AristaFlow-Workflowschema  
+120514-183008    
+120514-183008  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120514-183008    Start Event gefunden: Bestellung (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183008    Transformiere Flow Objects  
+120514-183008      Flow Object Bestellung (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA0)  
+120514-183008        Gateway (Verzweigung) gefunden  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA5)  
+120514-183008        Gateway (Verzweigung) gefunden  
+120514-183008      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA6)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA6)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA6)  
+120514-183008        Gateway (Zusammenführung) gefunden  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA1)  
+120514-183008      Flow Object Empfange Gleichteilebereitstellung (ID _wAHBwCh5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA1)  
+120514-183008      Flow Object  (ID _xAdg8Ch4EeGNy-Zci5qUxA__ll7h4Ch5EeGNy-Zci5qUxA1)  
+120514-183008        Gateway (Zusammenführung) gefunden  
+120514-183008      Flow Object Sende e-Car Bereitstellung (ID _mULvACh5EeGNy-Zci5qUxA)  
+120514-183008      Flow Object Sende Meldung abholbereit (ID _4VMjsGi_EeGTiaWppoNxDg)  
+120514-183009  Pool transformiert: Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120514-183009    
+120514-183009  Transformiere Pool Strat. Ekf. / Beschaffung (ID _rT4twCh6EeGNy-Zci5qUxA)  
+120514-183009    Start Event gefunden: Bedarfe (ID _vqru4Ch6EeGNy-Zci5qUxA)  
+120514-183009    Transformiere Flow Objects  
+120514-183009      Flow Object Bedarfe (ID _vqru4Ch6EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Bedarfe (ID _zJ6O0Ch6EeGNy-Zci5qUxA)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA0)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA5)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Sende Individualteilebestellung (ID _IuE64Ch7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Sende Meld. Individualteilebestellt (ID _RBh-0Ch7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empf. Meld. Individualteile erhalten (ID _iihwYCh7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA6)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA6)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA6)  
+120514-183009        Gateway (Zusammenführung) gefunden  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA1)  
+120514-183009      Flow Object Sende Gleichteilebestellung (ID _NzKlYCh7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Gleichteilebelieferung (ID _YIPi0Ch7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Sende Gleichteilebereitstellung (ID _gDGgkCh7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA1)  
+120514-183009      Flow Object  (ID _A5-FYCh7EeGNy-Zci5qUxA__p-UMgCh7EeGNy-Zci5qUxA1)  
+120514-183009        Gateway (Zusammenführung) gefunden  
+120514-183009      Flow Object  (ID _5OpCQGjBEeGTiaWppoNxDg)  
+120514-183009        Gateway (Verzweigung) gefunden  
+120514-183009      Flow Object Sende Meldung Montage (ID _6ySRMGi_EeGTiaWppoNxDg)  
+120514-183009      Flow Object  (ID _6ry8wGjBEeGTiaWppoNxDg)  
+120514-183009      Flow Object Sende Zahlungsfreigabe (ID _rRYW4Ch7EeGNy-Zci5qUxA)  
+120514-183009      Flow Object  (ID _6ry8wGjBEeGTiaWppoNxDg)  
+120514-183009      Flow Object  (ID _6ry8wGjBEeGTiaWppoNxDg)  
+120514-183009        Gateway (Zusammenführung) gefunden  
+120514-183009  Pool transformiert: Strat. Ekf. / Beschaffung (ID _rT4twCh6EeGNy-Zci5qUxA)  
+120514-183009    
+120514-183009  Transformiere Pool Finanzwesen (ID _1Xf10Ch8EeGNy-Zci5qUxA)  
+120514-183009    Start Event gefunden: Rechnung (ID _tRtTECh_EeGNy-Zci5qUxA)  
+120514-183009    Transformiere Flow Objects  
+120514-183009      Flow Object Rechnung (ID _tRtTECh_EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Rechnung (ID _-yiz8Ch8EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Empfange Zahlungsfreigabe (ID __Hw2ACh8EeGNy-Zci5qUxA)  
+120514-183009      Flow Object Zahlung (ID _AN5XoCh9EeGNy-Zci5qUxA)  
+120514-183009  Pool transformiert: Finanzwesen (ID _1Xf10Ch8EeGNy-Zci5qUxA)  
+120514-183009    
+120514-183009  Transformiere Message Flows ...   
+120514-183009    Message Flow MessageFlow _K_GpsCh4EeGNy-Zci5qUxA: [Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)] -> [FlowObject Bestellung (ID _AKOK0Ch4EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _xmCBQCh6EeGNy-Zci5qUxA: [FlowObject Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)] -> [FlowObject Bedarfe (ID _vqru4Ch6EeGNy-Zci5qUxA)]  
+120514-183009      transformiert  
+120514-183009    Message Flow MessageFlow _MqNHUCh9EeGNy-Zci5qUxA: [FlowObject Zahlung (ID _AN5XoCh9EeGNy-Zci5qUxA)] -> [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _SmjxACh9EeGNy-Zci5qUxA: [FlowObject Sende Zahlungsfreigabe (ID _rRYW4Ch7EeGNy-Zci5qUxA)] -> [FlowObject Empfange Zahlungsfreigabe (ID __Hw2ACh8EeGNy-Zci5qUxA)]  
+120514-183009      transformiert  
+120514-183009    Message Flow MessageFlow _-y6x8Ch9EeGNy-Zci5qUxA: [FlowObject Sende Individualteilebestellung (ID _IuE64Ch7EeGNy-Zci5qUxA)] -> [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _D8IHcCh-EeGNy-Zci5qUxA: [FlowObject Sende Gleichteilebestellung (ID _NzKlYCh7EeGNy-Zci5qUxA)] -> [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _LBSzUCh-EeGNy-Zci5qUxA: [FlowObject Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)] -> [FlowObject Empf. Meld. Individualteile erhalten (ID _iihwYCh7EeGNy-Zci5qUxA)]  
+120514-183009      transformiert  
+120514-183009    Message Flow MessageFlow _7gap8Ch-EeGNy-Zci5qUxA: [FlowObject Sende Gleichteilebereitstellung (ID _gDGgkCh7EeGNy-Zci5qUxA)] -> [FlowObject Empfange Gleichteilebereitstellung (ID _wAHBwCh5EeGNy-Zci5qUxA)]  
+120514-183009      transformiert  
+120514-183009    Message Flow MessageFlow _AACP4Ch_EeGNy-Zci5qUxA: [FlowObject Sende e-Car Bereitstellung (ID _mULvACh5EeGNy-Zci5qUxA)] -> [Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _LHeeYCh_EeGNy-Zci5qUxA: [FlowObject Sende Meld. Individualteilebestellt (ID _RBh-0Ch7EeGNy-Zci5qUxA)] -> [FlowObject Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)]  
+120514-183009      transformiert  
+120514-183009    Message Flow MessageFlow _dY-RIGJZEeGzh4QMhLlpEQ: [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)] -> [FlowObject Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _heR5oGJZEeGzh4QMhLlpEQ: [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)] -> [FlowObject Rechnung (ID _tRtTECh_EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _qbjWoGJZEeGzh4QMhLlpEQ: [Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)] -> [FlowObject Empfange Gleichteilebelieferung (ID _YIPi0Ch7EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009    Message Flow MessageFlow _yL0VMGjAEeGTiaWppoNxDg: [FlowObject Sende Meldung Montage (ID _6ySRMGi_EeGTiaWppoNxDg)] -> [Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)]  
+120514-183009      ignoriert (Quelle oder Ziel ist ein Pool)  
+120514-183009  Message Flows transformiert  
+120514-183009    
+120514-183009  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183009    
+120514-183009  Modell erfolgreich transformiert  
+120514-183009    
+120514-183009  Erstelle XML-Datei für AristaFlow ...  
+120514-183009    Generiere XML ...  
+120514-183009      Generiere Header  
+120514-183009      Generiere Nodes  
+120514-183009      Generiere Data Elements  
+120514-183009      Generiere Edges  
+120514-183009      Generiere Data Edges  
+120514-183009      Generiere strukturelle Daten für Nodes   
+120514-183009    Formatiere XML  
+120514-183009    Schreibe XML-Datei "test\result\Fallstudie 4-14 e-Car Produktion Änderung 1.xpdl.template"  
+120514-183009  Transformation erfolgreich beendet  
+120514-183009    
+120514-183009  Schreibe Log-Datei "test\result\Fallstudie 4-14 e-Car Produktion Änderung 1.xpdl.template.log"  

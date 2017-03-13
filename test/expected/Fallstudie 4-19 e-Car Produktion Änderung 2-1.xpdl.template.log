@@ -1,0 +1,68 @@
+120321-025838  BPMN-Workflowschema für die Transformation vorbereiten  
+120321-025838    Entferne Black Box Pool Absatz (ID _va34oyh3EeGNy-Zci5qUxA)  
+120321-025838    Entferne Black Box Pool Lieferant (ID _5Tl38Ch8EeGNy-Zci5qUxA)  
+120321-025838      
+120321-025838  Transformation gestartet ...  
+120321-025838    
+120321-025838  initialisiere leeres AristaFlow-Workflowschema  
+120321-025838    
+120321-025838  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120321-025838    Start Event gefunden:  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120321-025838    Transformiere Flow Objects  
+120321-025838      Flow Object  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120321-025838        Gateway (Zusammenführung) gefunden (Schleife)  
+120321-025838      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object 1 (ID _xAdg8Ch4EeGNy-Zci5qUxA)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object 1c (ID _9sWkwCh4EeGNy-Zci5qUxA)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Teile i.O.? (ID _6ZkcwGifEeGTiaWppoNxDg)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120321-025838      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object 2b (ID _kwWkwCh5EeGNy-Zci5qUxA)  
+120321-025838    
+120321-025838  Transformation fehlgeschlagen, versuche überlappende Gateways aufzulösen  
+120321-025838    Suche nach überlappenden Gateways ...  
+120321-025838      überlappenden Gateways aufgelöst für " (ID _A5-FYCh7EeGNy-Zci5qUxA)"  
+120321-025838      
+120321-025838  Transformation gestartet ...  
+120321-025838    
+120321-025838  initialisiere leeres AristaFlow-Workflowschema  
+120321-025838    
+120321-025838  Transformiere Pool Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA)  
+120321-025838    Start Event gefunden:  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120321-025838    Transformiere Flow Objects  
+120321-025838      Flow Object  (ID _AKOK0Ch4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Empfange Bestellung (ID _ud7SwCh4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120321-025838        Gateway (Zusammenführung) gefunden (Schleife)  
+120321-025838      Flow Object Sende Bedarfe (ID _vHqzUCh4EeGNy-Zci5qUxA)  
+120321-025838      Flow Object 1 (ID _xAdg8Ch4EeGNy-Zci5qUxA)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object 1c (ID _9sWkwCh4EeGNy-Zci5qUxA)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object Empf. Meld. Individualteile bestellt (ID _KJ8G0Ch5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Empfange Individualteilebelieferung (ID _WKhj0Ch5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object Teile i.O.? (ID _6ZkcwGifEeGTiaWppoNxDg)  
+120321-025838        Gateway (Verzweigung) gefunden  
+120321-025838      Flow Object Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg)  
+120321-025838      Flow Object Sende Meld. Individualteile erhalten (ID _gNdBUCh5EeGNy-Zci5qUxA)  
+120321-025838      Flow Object 2b (ID _kwWkwCh5EeGNy-Zci5qUxA)  
+120321-025838  Verschiedene Gateways für die Zusammenführung gefunden: Schleife (Start) (ID _mCpKcGigEeGTiaWppoNxDg) vs. 2b (ID _kwWkwCh5EeGNy-Zci5qUxA) 
+120321-025838   
+120321-025838  Zu einer Verzweigung wurde keine passende Zusammenführung gefunden 
+120321-025838   
+120321-025838  FlowObject: Teile i.O.? 
+120321-025838  Typ: Gateway (Verzweigung) 
+120321-025838  ID: _6ZkcwGifEeGTiaWppoNxDg 
+120321-025838  Lane: Lane (ID _Y1oKESh3EeGNy-Zci5qUxA) 
+120321-025838  Pool: Produktion (ID _Y1oKECh3EeGNy-Zci5qUxA) 
+120321-025838   
+120321-025838   
+120321-025838  Exception:  
+120321-025838  class de.bpmnaftool.model.transformation.NotTransformableException

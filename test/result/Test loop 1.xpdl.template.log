@@ -1,0 +1,52 @@
+120514-183001  BPMN-Workflowschema für die Transformation vorbereiten  
+120514-183001      
+120514-183001  Transformation gestartet ...  
+120514-183001    
+120514-183001  initialisiere leeres AristaFlow-Workflowschema  
+120514-183001    
+120514-183001  Transformiere Pool Pool A (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183001    Start Event gefunden: Start Event (ID _mlPjImbdEeGTiaWppoNxDg)  
+120514-183001    Transformiere Flow Objects  
+120514-183001      Flow Object Start Event (ID _mlPjImbdEeGTiaWppoNxDg)  
+120514-183001      Flow Object Schleife Start außen (ID _uOOJgXLMEeG-H7OfqozECg)  
+120514-183001        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183001      Flow Object Schleife Start (ID _T_DSgGg6EeGTiaWppoNxDg)  
+120514-183001        Gateway (Zusammenführung) gefunden (Schleife)  
+120514-183001      Flow Object Exkl. Verzweigung (ID _OKqvMGcgEeGTiaWppoNxDg)  
+120514-183001        Gateway (Verzweigung) gefunden  
+120514-183001      Flow Object A2 (ID _QRLvwGcgEeGTiaWppoNxDg)  
+120514-183001      Flow Object Exkl. Zusammenführung (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183001      Flow Object A5 (ID _IOlRQGbeEeGTiaWppoNxDg)  
+120514-183001      Flow Object Exkl. Zusammenführung (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183001      Flow Object A3 (ID _jpZ-YXK1EeG7MNg5VwkjZw)  
+120514-183001      Flow Object Exkl. Zusammenführung (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183001      Flow Object Exkl. Zusammenführung (ID _OFxyAGg6EeGTiaWppoNxDg)  
+120514-183001        Gateway (Zusammenführung) gefunden  
+120514-183001      Flow Object Schleife Ende (ID _Sd3MkGg6EeGTiaWppoNxDg)  
+120514-183001      Flow Object Schleife Ende (ID _Sd3MkGg6EeGTiaWppoNxDg)  
+120514-183001        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183001      Flow Object Schleife Ende außen (ID _0OnlsHLMEeG-H7OfqozECg)  
+120514-183001      Flow Object Schleife Ende außen (ID _0OnlsHLMEeG-H7OfqozECg)  
+120514-183001        Gateway (Verzweigung) gefunden (Schleife)  
+120514-183001  Pool transformiert: Pool A (ID _mlPjIGbdEeGTiaWppoNxDg)  
+120514-183001    
+120514-183001  Transformiere Message Flows ...   
+120514-183001  Message Flows transformiert  
+120514-183001    
+120514-183001  Stelle AristaFlow-Wokflowschema fertig ...  
+120514-183001    
+120514-183001  Modell erfolgreich transformiert  
+120514-183001    
+120514-183001  Erstelle XML-Datei für AristaFlow ...  
+120514-183001    Generiere XML ...  
+120514-183001      Generiere Header  
+120514-183001      Generiere Nodes  
+120514-183001      Generiere Data Elements  
+120514-183001      Generiere Edges  
+120514-183001      Generiere Data Edges  
+120514-183001      Generiere strukturelle Daten für Nodes   
+120514-183001    Formatiere XML  
+120514-183001    Schreibe XML-Datei "test\result\Test loop 1.xpdl.template"  
+120514-183001  Transformation erfolgreich beendet  
+120514-183001    
+120514-183001  Schreibe Log-Datei "test\result\Test loop 1.xpdl.template.log"  
