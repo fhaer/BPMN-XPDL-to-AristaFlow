@@ -1,0 +1,14 @@
+de.bpmnaftool.control
+de.bpmnaftool.model.aristaflow
+de.bpmnaftool.model.aristaflow.activity
+de.bpmnaftool.model.aristaflow.data
+de.bpmnaftool.model.aristaflow.fileio
+de.bpmnaftool.model.aristaflow.graph.edge
+de.bpmnaftool.model.aristaflow.graph.node
+de.bpmnaftool.model.bpmn
+de.bpmnaftool.model.bpmn.connectingobject
+de.bpmnaftool.model.bpmn.fileio
+de.bpmnaftool.model.bpmn.flowobject
+de.bpmnaftool.model.bpmn.swimlane
+de.bpmnaftool.model.transformation
+de.bpmnaftool.view
