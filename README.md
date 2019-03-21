@@ -5,7 +5,7 @@ This tool implements a transformation mechanism for models based on the BPMN XPD
 
 ## Usage
 
-When opening the tool, an XPDL file can be opened, validated and selected for the transformation. When starting the transformation, it operations on the level of model elements and clusters of model elements, such that (1.) patterns of model-elements are identified in the XPDL model, (2.) clusters of elements are created for each pattern, (3.) conversions for each cluster are carried out according to the pattern. More details are available [here](https://www.researchgate.net/publication/322077882_Vom_hochflexiblen_Geschaftsprozess_zum_ausfuhrbaren_Workflowschema_fur_AristaFlow).
+When opening the tool, a XPDL file can be opened, validated and selected for the transformation. When starting the transformation, it operates on the level of model elements and clusters of model elements, such that (1.) patterns of model-elements are identified in the XPDL model, (2.) clusters of elements are created for each pattern, (3.) conversions for each cluster are carried out according to the pattern. More details are available [here](https://www.researchgate.net/publication/322077882_Vom_hochflexiblen_Geschaftsprozess_zum_ausfuhrbaren_Workflowschema_fur_AristaFlow).
 
 ### Input 
 ![alt tag](Example-BPMN-Input.png)
